@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="740.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountBalanceMenu.AccountBalanceMenuController">
-
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountBalanceMenu.AccountBalanceMenuController">
+   <children>
+      <Label layoutX="327.0" layoutY="114.0" text="Estado de Cuenta">
+         <font>
+            <Font name="Century Gothic" size="48.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>

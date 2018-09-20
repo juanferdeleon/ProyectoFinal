@@ -5,58 +5,58 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="740.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userMenu.UserMenuController">
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userMenu.UserMenuController">
    <children>
-      <Label layoutX="291.0" layoutY="99.0" text="Bienvenido (Nombre)">
+      <Label layoutX="448.0" layoutY="158.0" text="Bienvenido (Nombre)">
          <font>
             <Font name="Century Gothic" size="48.0" />
          </font>
       </Label>
-      <Button layoutX="76.0" layoutY="268.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="327.0" mnemonicParsing="false" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="76.0" layoutY="341.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="400.0" mnemonicParsing="false" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="76.0" layoutY="409.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="468.0" mnemonicParsing="false" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="941.0" layoutY="268.0" mnemonicParsing="false" text="&gt;">
+      <Button layoutX="1098.0" layoutY="327.0" mnemonicParsing="false" text="&gt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="941.0" layoutY="341.0" mnemonicParsing="false" text="&gt;">
+      <Button layoutX="1098.0" layoutY="400.0" mnemonicParsing="false" text="&gt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="765.0" layoutY="505.0" mnemonicParsing="false" text="Regresar">
+      <Button layoutX="922.0" layoutY="564.0" mnemonicParsing="false" text="Regresar">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Button>
-      <Label layoutX="149.0" layoutY="270.0" text="Retiro Monetario">
+      <Label layoutX="306.0" layoutY="329.0" text="Retiro Monetario">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Label>
-      <Label layoutX="149.0" layoutY="343.0" text="Estado de Cuenta">
+      <Label layoutX="306.0" layoutY="402.0" text="Estado de Cuenta">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Label>
-      <Label layoutX="149.0" layoutY="411.0" text="Ver ultimo 3 Movimientos">
+      <Label layoutX="306.0" layoutY="470.0" text="Ver ultimo 3 Movimientos">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Label>
-      <Label layoutX="648.0" layoutY="270.0" text="Tranferencia Monetaria">
+      <Label layoutX="805.0" layoutY="329.0" text="Tranferencia Monetaria">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Label>
-      <Label layoutX="743.0" layoutY="343.0" text="Cambio de PIN">
+      <Label layoutX="900.0" layoutY="402.0" text="Cambio de PIN">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Label>
-      <Label layoutX="371.0" layoutY="175.0" text="¿En que podemos ayudarle?">
+      <Label layoutX="528.0" layoutY="234.0" text="¿En que podemos ayudarle?">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font>

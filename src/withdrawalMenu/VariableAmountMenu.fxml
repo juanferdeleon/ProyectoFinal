@@ -6,30 +6,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="740.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="withdrawalMenu.VariableAmountMenuController">
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="withdrawalMenu.VariableAmountMenuController">
    <children>
-      <Label layoutX="347.0" layoutY="128.0" text="Retiro Monetario">
+      <Label layoutX="490.0" layoutY="193.0" text="Retiro Monetario">
          <font>
             <Font name="Century Gothic" size="48.0" />
          </font>
       </Label>
-      <Label layoutX="432.0" layoutY="301.0" text="Cantidad  a retirar">
+      <Label layoutX="575.0" layoutY="366.0" text="Cantidad  a retirar">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font>
       </Label>
-      <TextField layoutX="432.0" layoutY="361.0" prefHeight="25.0" prefWidth="216.0">
+      <TextField layoutX="575.0" layoutY="426.0" prefHeight="25.0" prefWidth="216.0">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <Button layoutX="347.0" layoutY="463.0" mnemonicParsing="false" text="Regresar">
+      <Button layoutX="490.0" layoutY="528.0" mnemonicParsing="false" text="Regresar">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font>
       </Button>
-      <Button layoutX="627.0" layoutY="463.0" mnemonicParsing="false" text="Retirar">
+      <Button layoutX="770.0" layoutY="528.0" mnemonicParsing="false" text="Retirar">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font>

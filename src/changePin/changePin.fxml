@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="changePin.ChangePinController">
+   <children>
+      <Button layoutX="101.0" layoutY="78.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="993.0" layoutY="90.0" mnemonicParsing="false" text="Realizar cambio">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="504.0" layoutY="93.0" text="Cambio de PIN">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="224.0" text="Contraseña actual">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="375.0" text="Contraseña nueva">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="555.0" text="Confirmar contraseña nueva">
+         <font>
+            <Font name="Century Gothic" size="28.0" />
+         </font>
+      </Label>
+      <TextField layoutX="373.0" layoutY="646.0" prefHeight="25.0" prefWidth="503.0" />
+      <TextField layoutX="373.0" layoutY="471.0" prefHeight="25.0" prefWidth="503.0" />
+      <TextField layoutX="373.0" layoutY="303.0" prefHeight="25.0" prefWidth="503.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wireTransfer.WireTransferController">
+   <children>
+      <Button layoutX="141.0" layoutY="103.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="1087.0" layoutY="101.0" mnemonicParsing="false" text="Transferir">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="573.0" layoutY="119.0" text="Transferencias">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="333.0" text="Seleccionar cuenta a transferir">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="206.0" layoutY="407.0" prefHeight="295.0" prefWidth="213.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+        </columns>
+      </TableView>
+      <Label layoutX="879.0" layoutY="328.0" text="Cantidad">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="877.0" layoutY="546.0" text="Comentario">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="870.0" layoutY="415.0" prefHeight="25.0" prefWidth="293.0" />
+      <TextField layoutX="873.0" layoutY="647.0" prefHeight="25.0" prefWidth="293.0" />
+   </children>
+</AnchorPane>

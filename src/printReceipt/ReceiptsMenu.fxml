@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="printReceipt.PrintReceiptController">
+   <children>
+      <Label layoutX="285.0" layoutY="134.0" text="¡Su transaccion ha sido realizada exitosamente!">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="545.0" layoutY="285.0" text="Quiere imprimir su recibo?">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="487.0" text="&lt; SI ">
+         <font>
+            <Font name="Century Gothic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="895.0" layoutY="485.0" text="NO &gt; ">
+         <font>
+            <Font name="Century Gothic" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

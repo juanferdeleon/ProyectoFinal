@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label layoutX="541.0" layoutY="157.0" text="Bienvenido">
          <font>
@@ -35,7 +35,7 @@
             <Font name="Century Gothic" size="24.0" />
          </font>
       </Label>
-      <Button layoutX="1070.0" layoutY="487.0" mnemonicParsing="false" text="Ir">
+      <Button layoutX="1070.0" layoutY="487.0" mnemonicParsing="false" onAction="#userMenuWindow" text="Ir">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font>

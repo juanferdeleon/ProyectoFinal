@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="changePin.ChangePinController">
    <children>
-      <Button layoutX="101.0" layoutY="78.0" mnemonicParsing="false" text="Regresar">
+      <Button layoutX="101.0" layoutY="78.0" mnemonicParsing="false" onAction="#userMenuWindow" text="Regresar">
          <font>
             <Font name="Century Gothic" size="30.0" />
          </font>

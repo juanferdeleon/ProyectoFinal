@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountMoves.AccountMovesController">
    <children>
-      <Button layoutX="126.0" layoutY="93.0" mnemonicParsing="false" text="Regresar ">
+      <Button layoutX="126.0" layoutY="93.0" mnemonicParsing="false" onAction="#userMenuWindow" text="Regresar ">
          <font>
             <Font name="Century Gothic" size="30.0" />
          </font>

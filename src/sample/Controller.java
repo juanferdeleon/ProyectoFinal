@@ -29,4 +29,24 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
+    public void adminLoginMenuWindow(ActionEvent event){
+        Parent root1;
+
+        try {
+            //Cierra la actual ventana
+            ((Node)event.getSource()).getScene().getWindow().hide();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../adminLogin/AdminLogin.fxml"));
+            root1 = fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Admin Login Menu");
+            stage.setScene(new Scene(root1));
+
+            stage.show();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
 }

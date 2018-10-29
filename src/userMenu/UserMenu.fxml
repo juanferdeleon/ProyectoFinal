@@ -12,27 +12,27 @@
             <Font name="Century Gothic" size="48.0" />
          </font>
       </Label>
-      <Button layoutX="233.0" layoutY="327.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="327.0" mnemonicParsing="false" onAction="#withdrawalMenuWindow" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="233.0" layoutY="400.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="400.0" mnemonicParsing="false" onAction="#accountBalanceMenuWindow" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="233.0" layoutY="468.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="233.0" layoutY="468.0" mnemonicParsing="false" onAction="#accountMovesMenuWindow" text="&lt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="1098.0" layoutY="327.0" mnemonicParsing="false" text="&gt;">
+      <Button layoutX="1098.0" layoutY="327.0" mnemonicParsing="false" onAction="#wireTransferMenuWindow" text="&gt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="1098.0" layoutY="400.0" mnemonicParsing="false" text="&gt;">
+      <Button layoutX="1098.0" layoutY="400.0" mnemonicParsing="false" onAction="#changePinMenuWindow" text="&gt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font></Button>
-      <Button layoutX="922.0" layoutY="564.0" mnemonicParsing="false" text="Regresar">
+      <Button layoutX="922.0" layoutY="564.0" mnemonicParsing="false" onAction="#MainMenuWindow" text="Salir">
          <font>
             <Font name="Century Gothic" size="24.0" />
          </font></Button>

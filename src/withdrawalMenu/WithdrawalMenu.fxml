@@ -12,7 +12,7 @@
             <Font name="Century Gothic" size="48.0" />
          </font>
       </Label>
-      <Button layoutX="324.0" layoutY="199.0" mnemonicParsing="false" text="Regresar">
+      <Button layoutX="324.0" layoutY="199.0" mnemonicParsing="false" onAction="#returnWindow" text="Regresar">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font>
@@ -72,7 +72,7 @@
             <Font name="Century Gothic" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="1086.0" layoutY="549.0" mnemonicParsing="false" text="&gt;">
+      <Button layoutX="1086.0" layoutY="549.0" mnemonicParsing="false" onAction="#variableAmountMenuWindow" text="&gt;">
          <font>
             <Font name="Century Gothic" size="18.0" />
          </font>
